@@ -1,5 +1,3 @@
-# Aula06
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -52,25 +50,25 @@
             </Div>
         </Fieldset>
         
-        <div class="campo">
-        <div class="campo">
-              <label>
-                <strong>Data de nascimento</strong>
-            </label>
-            <input type="date" name = "nasc" id="nasc">
-        </div> 
-            <label>
-                <strong>Curso</strong>
-             </label> 
-            <label>
-                <input type="radio" name="curso" value="front-end"> Frontend   
-            </label>    
-            <label>
-                <input type="radio" name="curso" value="back-end"> Back-End
-            </label>      
-            <label>
-                <input type="radio" name="curso" value ="Full-Stack"> Full-Stack  
-            </label>  
+        <div>
+            <div class="campo">
+                <label>
+                    <strong>Data de nascimento</strong>
+                </label>
+                <input type="date" name = "nasc" id="nasc">
+            </div> 
+                <label>
+                    <strong>Curso</strong>
+                </label> 
+                <label>
+                    <input type="radio" name="curso" value="front-end"> Frontend   
+                </label>    
+                <label>
+                    <input type="radio" name="curso" value="back-end"> Back-End
+                </label>      
+                <label>
+                    <input type="radio" name="curso" value ="Full-Stack"> Full-Stack  
+                </label>  
         </div>
 
         <div class="campo">
@@ -85,7 +83,9 @@
             </select>
         </div>
 
-        <button type="submit" onsubmit="">Cadastrar</button>
+        <!--botão--> 
+
+        <button class="botao" type="submit" >Cadastrar</button>
     </form>
 
 </body>
